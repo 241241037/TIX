@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor{
+    width: 95%;
+    margin:5px auto;
+	border: 4px crimson solid;
+    border-radius: 10px;
+}
+
+nav{
+    
+}
+h1{
+	text-align:center;
+	color: black;
+}
+h2{
+	text-align:center;
+	font-family: verdana;
+}
+header{
+    clear: both;
+    height: 200px;
+    background-image: url('');
+    background-size: cover; /* Ajusta la imagen para cubrir el área completa */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+#izq{
+    width: 60%;
+    float: left;
+    height: 150px;
+
+
+}
+#der{
+    width: 30%;
+    float: right;
+    height: 150px;
+	display: inline-block;
+    font-size: 1.2em;
+    text-decoration: none;
+
+
+}
+a:hover{ /*Propiedad para resaltar*/
+    color: blue;
+    text-decoration: underline;
+}
+nav ul li a{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none; /*Para quitar el subrayado de las letras*/
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10%;
+    text-align: center;
+}
+#uno{
+    width: 40%;
+    float: left;
+    height: 250px;
+	margin-left:50px;
+	text-align:justify;
+	border:dashed;
+	padding:20px;
+}
+
+#dos{
+    width: 40%;
+    float: left;
+    height: 280px;
+	margin-left:50px;
+	text-align:justify;
+	padding:20px;
+}
+
+#dos img{
+		margin-left:30%;
+}
+header button{
+	margin-left:48%;
+	margin-top:130px;
+}
+button{
+	margin-left:40%;
+}
+#tres{
+    width: 25%;
+    float: left;
+  height: 430;
+	text-align:justify;
+	border:dashed;
+	margin-top:50px;
+	padding:20px;
+}
+
+#cuatro{
+    width: 25%;
+    float: left;
+    height: 430;
+	border:dashed;
+	margin-left:50px;
+	text-align:justify;
+	margin-top:50px;
+	padding:20px;
+}
+#cinco{
+    width: 25%;
+    float: left;
+  height: 430;
+	margin-left:50px;
+	text-align:justify;
+	margin-top:50px;
+	border:dashed;
+	padding:20px;
+}
+#seis{
+    width: 40%;
+    float: right;
+  height: 250px;
+	margin-left:50px;
+	text-align:justify;
+	margin-top:50px;
+	padding:20px;
+}
+#siete{
+    width: 40%;
+    float: left;
+  height: 250px;
+	margin-left:50px;
+	text-align:justify;
+	margin-top:50px;
+	padding:20px;
+}
+#tres img{
+	border-radius: 20px;
+	margin-left:45%;
+}
+#cinco img{
+	border-radius: 20px;
+	margin-left:45%;
+}
+#cuatro img{
+	border-radius: 20px;
+	margin-left:45%;
+}
+footer{
+    clear: both;
+    height: 50px;
+	text-align:center;
+}

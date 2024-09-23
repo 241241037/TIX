@@ -1,0 +1,77 @@
+/*selector universal*/
+/* propiedades: valor*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*selector body*/
+
+body{ /* es el padre*/
+    background-color: blue; /*color de fondo*/
+    color: antiquewhite; /*color de la letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de letra*/
+    font-size: 1em; /*tamano de letra*/
+}
+
+#contenedor{
+    width: 90%;
+    margin: 5px auto ;
+    border: 4px silver solid;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: gray;
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+}
+nav ul li a{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: pink     ;
+    text-decoration: overline;
+}
+header{
+    margin-top: 40px;
+    height: 150px;
+    background: silver url("../foto.png/descarga.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1, h2, h3, h4, h5{
+    text-align: center;
+    margin: 10px;
+}
+h2{
+    color: tomato;
+}
+p{
+    padding: 10px;
+    text-align: justify;
+    border: 1px silver solid;
+    border-radius: 10px;
+    margin: 0px 25px;
+}
+.impar{
+    color: tomato;
+    border-top-right-radius: 65px;
+}
+.par{
+    color: yellow;
+    padding: 0px 50px;
+}
